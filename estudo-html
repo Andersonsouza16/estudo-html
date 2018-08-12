@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"/>
+
+
+	<style type="text/css">
+
+
+		body{
+			
+			display: grid;
+			grid-template-areas: "header header header"
+								 "aside  main   main"
+								 "footer footer footer";
+		}
+
+
+		.principal{
+			
+			display: grid;
+			grid-template-columns: 2fr 1fr;
+		}
+
+		.primeira{
+			background-color: blue;
+		}
+
+		.segunda{
+			background-color: red;
+		}
+		.terceira{
+			background-color: green;
+		}
+		.quarta{
+			background-color: yellow;
+		}
+		.quinta{
+			background-color: black;
+		}
+
+		.int1{
+			background-color: red;
+		}
+
+		.int1{
+			background-color: green;
+		}
+
+	</style>
+
+</head>
+
+
+<body>
+
+
+	<header class="header"	>Cabeçalho</header>
+	<aside  class="aside"	>menu lateral</aside>
+	<main 	class="main"	>conteudo principal</main>
+	<footer class="footer"	>rodapé</footer>
+
+
+
+
+</body>
+
+
+</html>
